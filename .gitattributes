@@ -1,0 +1,41 @@
+# Set default behavior to auto detect text and normalize to LF in repo
+* text=auto
+
+# Source code files: normalize line endings to LF in repo,
+# working directory stays as-is (usually CRLF on Windows)
+*.c text
+*.cpp text
+*.h text
+*.s text
+*.asm text
+*.ld text
+
+# Keil project files: treat as text (LF in repo, CRLF in working copy)
+*.uvprojx text
+*.uvoptx text
+*.uvguix.* text
+*.dbgconf text
+*.sct text
+
+# CubeMX project
+*.ioc text
+*.mxproject text
+
+# Scripts / makefiles
+*.bat text eol=crlf
+*.cmd text eol=crlf
+Makefile text eol=lf
+*.mk text eol=lf
+
+# Binary files: do not modify
+*.axf binary
+*.elf binary
+*.hex binary
+*.bin binary
+*.o binary
+*.lib binary
+*.a binary
+*.pdsprj binary
+*.png binary
+*.jpg binary
+*.pdf binary

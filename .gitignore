@@ -1,0 +1,58 @@
+Hossein-SmartCar-main/
+Test_Project/
+TinyML_OD/
+__pycache__/
+dataset/
+BackUP/
+Project Backups/
+TinyML_Obstacle_Detection_Report.docx
+.vscode/
+# ========================
+# Keil MDK-ARM
+# ========================
+Objects/
+Listings/
+*.dep
+*.crf
+*.d
+*.o
+*.axf
+*.elf
+*.hex
+*.bin
+*.iex
+*.htm
+*.build_log.htm
+*.lnp
+*.plg
+JLinkLog.txt
+JLinkSettings.ini
+
+# User-specific project options
+*.uvoptx
+*.uvguix.*
+
+# ========================
+# STM32CubeMX
+# ========================
+.mxproject
+
+# ========================
+# Proteus
+# ========================
+# Ignore all backup and workspace files, keep main .pdsprj
+*.pdsprj.*
+!*.pdsprj
+*.pdsbak
+*.DBK
+*.bak
+
+# ========================
+# OS & Editor files
+# ========================
+Thumbs.db
+.DS_Store
+Desktop.ini
+*.swp
+*.swo
+*~
